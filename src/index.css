@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: rgb(19, 19, 19);
+  color: white;
+  font-family: 'Roboto Condensed', sans-serif;
+  overflow: hidden;
+}
+#tableView{
+  width: 100%;
+  border-collapse: collapse;
+}
+#tableView td{
+  vertical-align: top;
+}
+#tableView td:first-child{
+  width: 300px;
+}
+
+#tableView td:last-child{
+}
+.shadow{
+  -webkit-box-shadow: 0px 12px 35px -3px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 12px 35px -3px rgba(0,0,0,0.75);
+  box-shadow: 0px 12px 35px -3px rgba(0,0,0,0.75);
+}
+
